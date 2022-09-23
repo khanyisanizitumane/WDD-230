@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Khanyisani Zitumane" />
+    <meta name="description" content="Assignment portal for Khanyisani Zitumane in WDD 230: Web Frontend Development at Brigham Young University - Idaho " />
+    <link href="styles/style.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Poppins';font-size: 22px;
+}
+</style>
+
+
+    <title>WDD 230 - Course Homepage</title>
+</head>
+<body> 
+    
+     <header class="wrapper">
+
+            <div class='title' >
+                <h1>Khanyisani Zitumane</h1>  <img class="profile-picture" src='images/profile picture kt.jpg' alt="Khanyisani-Zitumane">
+            </div> 
+        
+               
+            
+    
+
+     </header>
+    
+    <main> 
+        <div class="lessons">
+        <h1 class="subheading"> WDD 230 Assignment Portal </h1>
+        
+            <h2> Lesson 2 : <a href="title">Title</a> </h2>
+            <h2> Lesson 3 : <a href="title">Title</a> </h2>
+            <h2> Lesson 4 : <a href="title">Title</a> </h2>
+            <h2> Lesson 5 : <a href="title">Title</a> </h2>
+            <h2> Lesson 6 : <a href="title">Title</a> </h2>
+            <h2> Lesson 7 : <a href="title">Title</a> </h2>
+            <h2> Lesson 8 : <a href="title">Title</a> </h2>
+            <h2> Lesson 9 : <a href="title">Title</a> </h2>
+            <h2> Lesson 10: <a href="title">Title</a> </h2>
+            <h2> Lesson 11: <a href="title">Title</a> </h2>
+        </div>
+            
+    </main>
+    <footer class="footer"> 
+        <p>© 2022| Khanyisani Zitumane |BYU Idaho| </p>
+        <div id="last-modified">
+
+        </div>
+        <button onclick="lastedit">Last Modified</button>
+    </footer>
+    <script>
+        function lastedit() {
+            var latestDate = new Date(document.lastModified);
+            document.getElementById("last-modified").innerHTML=latestDate;
+
+        }
+    </script>
+</body>
+</html>
